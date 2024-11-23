@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import Categories from './components/Categories';
-import Home from './components/Home';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./components/toolbar/Header.tsx";
+import Categories from "./components/page/Categories.tsx";
+import Home from "./components/page/Home.tsx";
 
 const App: React.FC = () => {
   return (
